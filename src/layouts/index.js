@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './index.scss'
 
+// main page -- 
+
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
