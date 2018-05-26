@@ -3,17 +3,28 @@ import Link from 'gatsby-link'
 import { Icon } from "react-icons-kit";
 import { twitter } from 'react-icons-kit/fa/twitter';
 import { linkedin } from 'react-icons-kit/fa/linkedin';
-import { github } from 'react-icons-kit/fa/github'
+import { github } from 'react-icons-kit/fa/github';
+import {angleRight} from 'react-icons-kit/fa/angleRight'
 
-import "./header.scss";
+// import "../styles/components/header.scss";
 
 const Header = ({ siteTitle }) => (
   <div className="header">
-    <h1>{siteTitle}</h1>
-    <div className="header__icons">
-      <Icon icon={twitter} size={32} />
-      <Icon icon={linkedin} size={32} />
-      <Icon icon={github} size={32} />
+    <div className="header__topbar">
+    <div className="header__logo">
+        <p>Adam Pugh</p>
+      </div>
+      <div className="header__icons">
+        <Icon icon={twitter} size={32} />
+        <Icon icon={linkedin} size={32} />
+        <Icon icon={github} size={32} />
+        <h1>{siteTitle}</h1>
+      </div>
+      
+      <div className="header__portfolio">
+        <p>Portfolio <Icon icon={angleRight} size={12} /></p>
+        
+      </div>
     </div>
     
   </div>
