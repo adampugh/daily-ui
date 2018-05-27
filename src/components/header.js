@@ -18,13 +18,13 @@ const Header = ({ siteTitle }) => (
         <Icon icon={twitter} size={32} />
         <Icon icon={linkedin} size={32} />
         <Icon icon={github} size={32} />
-        <h1>{siteTitle}</h1>
+        {/* <h1>{siteTitle}</h1> */}
       </div>
       
-      <div className="header__portfolio">
-        <p>Portfolio <Icon icon={angleRight} size={12} /></p>
+      {/* <div className="header__portfolio"> */}
+        {/* <p>Portfolio <Icon icon={angleRight} size={12} /></p> */}
         
-      </div>
+      {/* </div> */}
     </div>
     
   </div>
